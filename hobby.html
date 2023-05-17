@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="content-type" content="text/html;charset=utf-8" />
+    <meta name="viewport" content="width, initial-scale=1.0, maximum-scale=1.0" /> 
+    <title>hobby</title>
+	<link rel="stylesheet" type="text/css"  href="./desktop.css" media="only screen and (min-width:401px)"  />
+	<link rel="stylesheet" href="http://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css"/>
+	<script type="text/JavaScript" src="https://code.jquery.com/jquery-1.12.4.js"></script>
+	<script type="text/JavaScript" src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+	<script type="text/javascript">
+		jQuery(document).ready(function() {
+		   
+			var barProgress = jQuery(".progressbar");
+		   
+	
+			// value 값의 숫자를 입력함으로서 내용을 채울 수 있다.
+	
+			barProgress.eq(0).progressbar({value:75});
+			barProgress.eq(0).find(".ui-progressbar-value").css({"background":"#CC66CC"});
+		   
+			barProgress.eq(1).progressbar({value:25});
+			barProgress.eq(1).find(".ui-progressbar-value").css({"background":"#FFCC66"});
+		   
+			barProgress.eq(2).progressbar({value:50});
+			barProgress.eq(2).find(".ui-progressbar-value").css({"background":"#DDDDDDD"});
+
+			barProgress.eq(3).progressbar({value:50});
+			barProgress.eq(3).find(".ui-progressbar-value").css({"background":"#FFE4C4"});
+
+			barProgress.eq(4).progressbar({value:50});
+			barProgress.eq(4).find(".ui-progressbar-value").css({"background":"#FFE4C4"});
+
+			barProgress.eq(5).progressbar({value:75});
+			barProgress.eq(5).find(".ui-progressbar-value").css({"background":"#DEB887"});
+
+			barProgress.eq(6).progressbar({value:25});
+			barProgress.eq(6).find(".ui-progressbar-value").css({"background":"#00FFFF"});
+		});
+	</script>
+	<style type="text/css">
+		.u.i-progressbar { position:relative; }
+    	.progress-label {
+        	position:absolute;
+        	left:50%;
+        	top:8px;
+	        font-weight:bold;
+    	    margin-left:-40px;
+    	}
+	</style>
+</head>
+ 
+<body>
+<div id="skipNav">
+    <a href="#contents">Jaehyuk's Webpage</a>
+</div>
+<hr class="hidden" />
+
+<div id="wrap">
+	<div id="header">
+		<h1 id="logo"><img src="night.jpg" width="50" height="50" alt="Jh_LOGO" /></h1>
+		<h2 class="noVisible">메인메뉴</h2>
+		<ul id="menu">
+			<li><a href="main.html">HOME</a></li>
+			<li><a href="about.html">ABOUT</a></li>
+			<li class="current"><a href="hobby.html">HOBBY</a></li>
+		</ul>
+		
+	</div>
+	<hr class="hidden" />
+	
+	<div id="contents">
+		<h1>HOBBY</h1>
+		<hr>
+		<h2 id="cert">취미 
+		<h3 class="hobby-padding">축구:하는 것,보는 것 다 좋아함.</h3>
+	
+		<br/>
+		<h3 class="skill-padding">음악 감상:웬만하면 모든 장르 다 좋아함 단 트로트 제외하고..</h3>
+	
+		<br/>
+		<h3 class="skill-padding">영화 감상:이것도 장르 불문하고 어지간하면 다 좋아함.근데 전쟁영화는 분위기가 지루해서 선호하지는 않음.</h3>
+	
+        <br/>
+		<h3 class="skill-padding">게임:rpg,fps,스포츠 게임 다 좋아하는 편,하지만 스타나 롤 같은 전략적 시뮬레이션 게임은 취향에 맞지 않아 하지 않음.</h3>
+
+		<br/>
+		<h3 class="skill-padding">요리:평소에 맛있는 거 먹는 걸 좋아해서 유튜브 숏츠에 나오는 요리들을 따라하는 것을 좋아함.단 요리를 잘 한다고는 말 못함.</h3>
+
+		<br/>
+		<h3 class="skill-padding">책과 만화 보기:원래 책이나 만화 보는 것을 좋아 하기도 했고 직업이 웹소설가다 보니 자료 참고 목적으로 틈틈히 보는 편.여담으로 애니도 꽤 많이 봄.</h3>
+	    
+        <br/>
+
+		<h3 class="skill-padding">커피:이건 취미라고는 할 수 없지만 그냥 커피를 좋아해서 넣어보고 싶었음. 아 커피 만드는 건 딱히 안 좋아함,잘 못 만들어서..</h3>
+
+
+
+	</div> 
+
+	
+
+	<hr  class="hidden" />
+    <address id="footer">
+        Copyright &copy; jh. rights reserved <br />
+        <i></i><span> 전화 : 010-34**-****</span>
+    </address>
+</div>  
+  
+</body>
+</html>
